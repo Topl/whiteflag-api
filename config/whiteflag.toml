@@ -11,12 +11,12 @@ saveToFile = false
 file = "/var/lib/whiteflag/whiteflag.state"
 
 [tx]
-verifyReference = true
-testMessagesOnly = true
+verifyReference = false
+testMessagesOnly = false
 
 [rx]
-verifyOriginator = true
-verifyReference = true
+verifyOriginator = false
+verifyReference = false
 
 [authentication]
 strict = false

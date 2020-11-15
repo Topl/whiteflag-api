@@ -29,14 +29,14 @@ enable = true
 
 [endpoints]
 sendMessage = true
-receiveMessage = false
-transferValue = false
-createAccount = false
-updateAccount = false
-deleteAccount = false
+receiveMessage = true
+transferValue = true
+createAccount = true
+updateAccount = true
+deleteAccount = true
 createSignature = true
-updateOriginator = false
-deleteOriginator = false
+updateOriginator = true
+deleteOriginator = true
 storePreSharedKey = true
 deletePreSharedKey = true
 storeAuthToken = true

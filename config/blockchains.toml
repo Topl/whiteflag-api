@@ -30,3 +30,24 @@ rpcPort = "8545"
 rpcPath = ""
 username = ""
 password = ""
+
+[[blockchains]]
+name = "topl-testnet"
+module = "bifrost"
+chainID = 0
+active = true
+createAccount = true
+blockRetrievalInterval = 6000
+blockRetrievalStart = 0
+blockRetrievalEnd = 0
+blockRetrievalRestart = 100
+blockMaxRetries = 0
+transactionBatchSize = 64
+transactionValue = "0"
+traceRawTransaction = false
+rpcProtocol = "http"
+rpcHost = "34.70.110.121"
+rpcPort = "9085"
+rpcPath = ""
+username = ""
+password = ""
