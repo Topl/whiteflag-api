@@ -11,6 +11,7 @@
     "license": "CC0-1.0",
     "dependencies": {
         "body-parser": "^1.19.0",
+        "brambljs": "^1.1.1",
         "cors": "^2.8.5",
         "ethereumjs-tx": "^2.1.2",
         "ethereumjs-util": "^7.0.4",
@@ -26,13 +27,13 @@
         "web3": "^1.2.11"
     },
     "devDependencies": {
-        "eslint": "^7.1.0",
-        "semver": "^7.3.2",
-        "mocha": "^7.2.0",
-        "jsdoc": "~3.6.4",
-        "widdershins": "^4.0.1",
         "cloc": "^2.5.1",
-        "license-checker": "^25.0.1"
+        "eslint": "^7.1.0",
+        "jsdoc": "~3.6.4",
+        "license-checker": "^25.0.1",
+        "mocha": "^7.2.0",
+        "semver": "^7.3.2",
+        "widdershins": "^4.0.1"
     },
     "homepage": "https://github.com/WhiteflagProtocol/whiteflag-api#readme",
     "repository": {
@@ -50,8 +51,8 @@
     },
     "main": "main.js",
     "bin": {
-        "whiteflag-api": "./main.js",
-        "wfapi": "./main.js"
+        "whiteflag-api": "main.js",
+        "wfapi": "main.js"
     },
     "scripts": {
         "start": "node main.js",
