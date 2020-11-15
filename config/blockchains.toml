@@ -5,7 +5,7 @@
 #
 
 [confirmation]
-enabled = true
+enabled = false
 interval = 6000
 maxBlockDepth = 8
 updateEachBlock = false
